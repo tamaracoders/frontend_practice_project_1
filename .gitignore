@@ -1,0 +1,42 @@
+# General web stuff
+/.htaccess
+.htpasswd
+.revision
+/robots.txt
+/sitemap.xml
+error_log
+php.ini
+
+# Various IDE and OS files that should never be committed
+.DS_Store
+.sass-cache/
+*.swp
+*.lock
+__MACOSX
+.idea
+/nbproject/*
+.buildpath
+.thumbs
+Thumbs.db
+build.properties
+.settings/
+.buildpath
+/_notes/*
+*.sublime-project
+*.sublime-workspace
+config.codekit
+.project
+.externalToolBuilders
+
+# Ignore node/grunt files
+**/node_modules/*
+npm-debug.log
+
+# File types that shouldn't be tracked
+*.sql
+*.tar
+*.gz
+*.zip
+*.css.map
+.ftpquota
+*.pyc
