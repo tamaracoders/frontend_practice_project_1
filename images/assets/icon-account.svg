@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-PAGE" transform="translate(-982.000000, -43.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="NAV-BAR">
+                <g id="Links" transform="translate(60.000000, 38.000000)">
+                    <g id="Account" transform="translate(922.000000, 0.000000)">
+                        <g id="noun_275225_cc" transform="translate(0.000000, 5.000000)">
+                            <g id="Group">
+                                <g id="Shape">
+                                    <path d="M6,6.26086957 C7.80747736,6.26086957 9.27272727,4.85932591 9.27272727,3.13043478 C9.27272727,1.40154365 7.80747736,0 6,0 C4.19252264,0 2.72727273,1.40154365 2.72727273,3.13043478 C2.72727273,4.85932591 4.19252264,6.26086957 6,6.26086957 Z M0,11.7391304 C0,11.8832045 0.122104145,12 0.272727273,12 L11.7272727,12 C11.8778959,12 12,11.8832045 12,11.7391304 L12,11.2173913 C12,9.10712713 10.5249986,7.30434783 7.63636364,7.30434783 L4.36363636,7.30434783 C1.47500138,7.30434783 0,9.10712713 0,11.2173913 L0,11.7391304 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

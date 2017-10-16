@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Saved items</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-PAGE" transform="translate(-1151.000000, -38.000000)">
+            <g id="NAV-BAR">
+                <g id="Links" transform="translate(60.000000, 38.000000)">
+                    <g id="Saved-items" transform="translate(1092.000000, 1.000000)">
+                        <g id="noun_1041089_cc" transform="translate(6.000000, 6.000000)" fill-rule="nonzero" fill="#000000">
+                            <g id="Group">
+                                <path d="M2.37983464,0.0631526372 C0.961932454,0.0631526372 0,1.30728644 0,2.89074056 C0,5.60523683 1.86247645,6.73627549 4.34578948,8.43282475 C6.82910219,6.73627549 8.69157896,5.60523683 8.69157896,2.89074056 C8.69157896,1.30728644 7.72964635,0.0631526372 6.31174416,0.0631526372 C5.39911228,0.0631526372 4.64899682,0.628663248 4.34578948,0.967983563 C4.04258214,0.628663248 3.29248278,0.0631526372 2.3798348,0.0631526372 L2.37983464,0.0631526372 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                        <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="10.5" cy="10.5" r="10.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

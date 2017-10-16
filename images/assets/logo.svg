@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-PAGE" transform="translate(-692.000000, -25.000000)">
+            <g id="NAV-BAR">
+                <g id="Logo" transform="translate(692.000000, 25.000000)">
+                    <circle id="Oval-2" fill="#D0021B" cx="28.2981305" cy="28.2981305" r="28.2981305"></circle>
+                    <g id="Group-2" transform="translate(14.000000, 19.000000)" fill="#FFFFFF">
+                        <text id="BR" font-family="Baskerville" font-size="20" font-weight="normal" line-spacing="18">
+                            <tspan x="0" y="18">BR</tspan>
+                        </text>
+                        <circle id="Oval-3" cx="27.5" cy="13.5" r="1.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
