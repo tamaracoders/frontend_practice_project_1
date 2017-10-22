@@ -1,17 +1,20 @@
-.wrapper {
+.header-wrapper {
+	margin-top: 30px;
+	height: 150px;
 
 	nav {
-		font-size: 25px;
 		float: left;
-		margin-left: 15px;
+		width: 50%;
 
 		.menu-list{
 			list-style: none;
+			font-family: $playfair-font;
 
 			li{
 				display: inline-block;
-				margin-right: 50px;
+				margin-right: 35px;
 				float: left;
+				text-align: left;
 
 				a{
 					text-decoration: none;
@@ -26,4 +29,58 @@
 			}
 		}
 	}
+
+.logo {
+	position: relative;
+	left: -30px;
+
+	a {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		background-image: url("../images/assets/logo.svg");
+		background-repeat: no-repeat;
+	}
+}
+.account-menu {
+	position: relative;
+	float: right;
+	list-style: none;
+	font-family: $playfair-font;
+
+		li{
+			display: inline-block;
+			margin-right: 50px;
+			text-align: right;
+			padding-left: 20px;
+
+			a{
+				text-decoration: none;
+				color: $black;
+				margin-left: 25px;
+				line-height: 35px;
+			}
+		}
+
+		.saved{
+			background-image: url("../images/assets/icon-wishlist.svg");
+			background-repeat: no-repeat;
+			background-position: 0 5px;
+
+		}
+
+		.account {
+			background-image: url("../images/assets/icon-account.svg");
+			background-repeat: no-repeat;
+			background-position: 0 11px;
+			
+		}
+
+		.cart {
+			background-image: url("../images/assets/icon-cart.svg");
+			background-repeat: no-repeat;
+			background-position: 0 0px;
+			
+		}
+}
 }

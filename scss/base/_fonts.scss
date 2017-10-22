@@ -1,0 +1,29 @@
+//google fonts
+@import  url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i);
+
+$playfair-font: 'Playfair Display', serif;
+$open-sans: 'Open Sans', sans-serif;
+
+body,
+h1,
+h2,
+h3 {
+  font-family: $playfair-font;
+
+  body {
+  	font-size: 25px;
+  }
+
+  h1 {
+  	font-size: 55px;
+  }
+
+  h2 {
+  	font-size: 30px;
+  }
+
+  h3 {
+  	font-size: 25px;
+  }
+}
