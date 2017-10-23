@@ -7,22 +7,22 @@
 		width: 50%;
 		line-height: 35px;
 
-		.menu-list{
+		.menu-list {
 			list-style: none;
 			font-family: $playfair-font;
 
-			li{
+			li {
 				display: inline-block;
 				margin-right: 35px;
 				float: left;
 				text-align: left;
 
-				a{
+				a {
 					text-decoration: none;
 					color: $black;
 					padding: 10px;
 
-					&:hover{
+					&:hover {
 						color: $salmon-pink;
 						border-bottom: 1px solid $salmon-pink;
 					}
@@ -49,13 +49,13 @@
 	list-style: none;
 	font-family: $playfair-font;
 
-		li{
+		li {
 			display: inline-block;
 			margin-right: 50px;
 			text-align: right;
 			padding-left: 20px;
 
-			a{
+			a {
 				text-decoration: none;
 				color: $black;
 				margin-left: 25px;
@@ -63,7 +63,7 @@
 			}
 		}
 
-		.saved{
+		.saved {
 			background-image: url("../images/assets/icon-wishlist.svg");
 			background-repeat: no-repeat;
 			background-position: 0 5px;
