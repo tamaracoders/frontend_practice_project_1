@@ -1,14 +1,30 @@
-.slider{
-	
+.slider {
 	.home-slide {
-		height: 400px;
+		position: relative;
+		left: 20px;
+		height: 500px;
 		background-image: url("../images/homepage/home-slide.jpg");
-		background-size: 60%;
+		background-size: 70%;
 		background-repeat: no-repeat;
-		margin: 0 auto;
+		background-position: left;
 	}
 
 	h1 {
-		float: right;
+		position: absolute;
+		display: inline-block;
+		left: 50%;
+		top: 30%;
+	}
+
+	a {
+		position: absolute;
+		display: inline-block;
+		left: 50%;
+		top: 35%;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		text-decoration: none;
+		color: $rose-pink;
+		text-transform: uppercase;
 	}
 }
