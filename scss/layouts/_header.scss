@@ -1,26 +1,27 @@
 .header-wrapper {
 	margin-top: 30px;
-	height: 150px;
+	height: 100px;
+	display: flex;
 
 	nav {
+		flex: 4;
 		float: left;
 		width: 50%;
-		line-height: 35px;
-
+		
 		.menu-list {
 			list-style: none;
 			font-family: $playfair-font;
 
 			li {
 				display: inline-block;
-				margin-right: 35px;
+				padding-right: 5%;
 				float: left;
 				text-align: left;
 
 				a {
 					text-decoration: none;
 					color: $black;
-					padding: 10px;
+					line-height: 35px;
 
 					&:hover {
 						color: $salmon-pink;
@@ -31,57 +32,60 @@
 		}
 	}
 
-.logo {
-	position: relative;
-	left: -30px;
+	.logo {
+		position: relative;
+		flex: 0.5;
+		display: flex;
 
-	a {
-		position: absolute;
-		width: 60px;
-		height: 60px;
-		background-image: url("../images/assets/logo.svg");
-		background-repeat: no-repeat;
+		a {
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			background-image: url("../images/assets/logo.svg");
+			background-repeat: no-repeat;
+		}
 	}
-}
-.account-menu {
-	position: relative;
-	float: right;
-	list-style: none;
-	font-family: $playfair-font;
 
-		li {
-			display: inline-block;
-			margin-right: 50px;
-			text-align: right;
-			padding-left: 20px;
+	.acc-menu-wrap {
+		flex: 4;
 
-			a {
-				text-decoration: none;
-				color: $black;
-				margin-left: 25px;
-				line-height: 35px;
+		.account-menu {
+			position: relative;
+			float: right;
+			list-style: none;
+			font-family: $playfair-font;
+
+			li {
+				display: inline-block;
+				margin-right: 25px;
+				text-align: right;
+				padding-left: 20px;
+
+				a {
+					text-decoration: none;
+					color: $black;
+					margin-left: 15px;
+					line-height: 35px;
+				}
+			}
+
+			.saved {
+				background-image: url("../images/assets/icon-wishlist.svg");
+				background-repeat: no-repeat;
+				background-position: 0 5px;
+			}
+
+			.account {
+				background-image: url("../images/assets/icon-account.svg");
+				background-repeat: no-repeat;
+				background-position: 0 11px;
+			}
+
+			.cart {
+				background-image: url("../images/assets/icon-cart.svg");
+				background-repeat: no-repeat;
+				background-position: 0 0px;
 			}
 		}
-
-		.saved {
-			background-image: url("../images/assets/icon-wishlist.svg");
-			background-repeat: no-repeat;
-			background-position: 0 5px;
-
-		}
-
-		.account {
-			background-image: url("../images/assets/icon-account.svg");
-			background-repeat: no-repeat;
-			background-position: 0 11px;
-			
-		}
-
-		.cart {
-			background-image: url("../images/assets/icon-cart.svg");
-			background-repeat: no-repeat;
-			background-position: 0 0px;
-			
-		}
-}
+	}
 }

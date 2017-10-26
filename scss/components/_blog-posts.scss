@@ -1,0 +1,24 @@
+.latest-posts {
+	font-family: $playfair-font;
+
+	li {
+		list-style: none;
+		
+		a {
+			text-decoration: none;
+		}
+
+		.fashion {
+			color: $rose-pink;
+		}
+
+		.arts {
+			color: $light-blue;
+		}
+
+		.travel {
+			color: $green;
+		}
+	}
+
+}
