@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
 }
-.wrapper {
-	max-width: 1325px;
+body {
+	max-width: 1440px;
 	margin: 0 auto;
-	border: 1px solid $light-pink;
+}
+
+.wrapper {
+	width: 100%;
 }

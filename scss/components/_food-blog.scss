@@ -1,0 +1,71 @@
+.to-eat {
+	height: 708px;
+	position: relative;
+	color: white;
+	display: flex;
+
+	.food-img {
+		flex: 46;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: cover;
+		background-image: url("../images/homepage/home-food-for-tought.jpg");
+	}
+
+	.green-cont {
+		flex: 54;
+		background-color: $green;
+		
+		.gallery {
+			position: relative;
+			background-image: url("../images/assets/icon-gallery.svg");
+			background-repeat: no-repeat;
+			display: block;	
+			background-size: contain;
+			top: 32px;
+			left: 96px;
+			width: 110px;
+
+			p {
+				position: relative;
+				left: -104px;
+				text-transform: none;
+			}		
+		}
+
+		a {
+			position: relative;
+			text-decoration: none;
+			color: white;
+			text-transform: uppercase;
+			left: 140px;
+		}
+
+		h2 {
+			position: relative;
+			font-weight: 400;
+			left: 140px;
+			margin-top: 19px;
+			margin-bottom: 21px;
+			font-size: 40px;
+		}
+
+		p {
+			position: relative;
+			left: 140px;
+			font-size: 15px;
+		}
+
+		button {
+			position: relative;
+			width: 103px;
+			height: 40px;
+			position: relative;
+			float: right;
+			margin-top: 43px;
+			margin-bottom: 30px;
+			margin-right: 33px;
+			text-align: left;
+		}
+	}
+}

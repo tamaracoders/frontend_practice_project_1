@@ -1,31 +1,43 @@
 .slider {
+	max-width: 1320px;
+	margin: 0 auto;
 	display: flex;
-	height: 500px;
-	background-image: url("../images/homepage/home-slide.jpg");
-	background-size: 70%;
-	background-repeat: no-repeat;
-	background-position: left;
 
 	.home-slide {
 		position: relative;
-		flex: 7;
+		height: 575px;
+		width: 980px;
+		background-image: url("../images/homepage/home-slide.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 	.slide-text {
 		flex: 3;
+		
+		button{
+			width: 141px;
+			text-align: left;
+			position: relative;
+			top: 214px;
+			left: 20px;
+		}
 
-		h1 {
-			position: absolute;
+		h2 {
+			width: 353px;
+			position: relative;
 			display: inline-block;
-			left: 55%;
-			top: 45%;
+			left: -166px;
+			top: 166px;
+			font-size: 39px;
 		}
 
 		a {
-			position: absolute;
+			position: relative;
 			display: inline-block;
-			left: 55%;
-			top: 40%;
+			left: -166px;
+			top: 152px;
 			margin-bottom: 0;
 			padding-bottom: 0;
 			text-decoration: none;
