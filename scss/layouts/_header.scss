@@ -1,6 +1,6 @@
 .header-wrapper {
-	margin-top: 30px;
-	height: 100px;
+	padding-top: 30px;
+	height: 86px;
 	display: flex;
 
 	nav {
@@ -11,12 +11,13 @@
 		.menu-list {
 			list-style: none;
 			font-family: $playfair-font;
+			display: flex;
 
 			li {
 				display: inline-block;
-				padding-right: 5%;
-				float: left;
 				text-align: left;
+				flex: 1;
+
 
 				a {
 					text-decoration: none;
@@ -24,8 +25,15 @@
 					line-height: 35px;
 
 					&:hover {
-						color: $salmon-pink;
-						border-bottom: 1px solid $salmon-pink;
+					 	color: $salmon-pink;
+
+						&::after {
+							content: "";
+							display: block;
+							border-bottom: 1px solid $salmon-pink;
+							width: 52%;
+							height: 8px;
+						}
 					}
 				}
 			}
@@ -38,9 +46,11 @@
 		display: flex;
 
 		a {
+			margin-top: -5px;
 			position: absolute;
-			width: 60px;
-			height: 60px;
+			left: 9px;
+			width: 58px;
+			height: 58px;
 			background-image: url("../images/assets/logo.svg");
 			background-repeat: no-repeat;
 		}
@@ -57,15 +67,22 @@
 
 			li {
 				display: inline-block;
-				margin-right: 25px;
 				text-align: right;
-				padding-left: 20px;
+
+				&:last-child {
+					margin-right: 13px;
+				}
+
+
+				div {
+					display: inline-block;
+				}
 
 				a {
 					text-decoration: none;
 					color: $black;
-					margin-left: 15px;
-					line-height: 35px;
+					position: relative;
+					top: -6px;
 				}
 			}
 
@@ -73,18 +90,27 @@
 				background-image: url("../images/assets/icon-wishlist.svg");
 				background-repeat: no-repeat;
 				background-position: 0 5px;
+				height: 30px;
+				width: 30px;
+				margin-right: 9px;
 			}
 
 			.account {
 				background-image: url("../images/assets/icon-account.svg");
 				background-repeat: no-repeat;
 				background-position: 0 11px;
+				height: 30px;
+				width: 30px;
 			}
 
 			.cart {
 				background-image: url("../images/assets/icon-cart.svg");
 				background-repeat: no-repeat;
-				background-position: 0 0px;
+				background-position: 0 0;
+				height: 30px;
+				width: 30px;
+				position: relative;
+				top: 3px;
 			}
 		}
 	}
