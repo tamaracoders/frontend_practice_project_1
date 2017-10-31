@@ -110,10 +110,133 @@
 
 }
 
-
 // .background {
 // 	width: 100%;
 // 	height: 196px;
+// 	position: absolute;
 // 	background: -webkit-linear-gradient(264deg, transparent 50%, $yellow 50%);
 // 	background-position: bottom left;
 // }
+
+// .background-men {
+// 		width: 100%;
+// 		height: 400px;
+// 		background: -webkit-linear-gradient(275deg, transparent 50%, $rose-pink 50%);
+// 		background-position: top left;
+// 		position: absolute;
+// 		top: 842px;
+// 	}
+
+.men {
+	width: 1325px;
+	margin: 0 auto;
+	padding-top: 13px;
+
+	.latest-men {
+		display: flex;
+
+		.post-img1 {
+			z-index: 1;
+			width: 862px;
+			height: 771px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url("../images/homepage/home-best-dressed.jpg");
+
+			.orange-post {
+				// visibility: hidden;
+				width: 583px;
+				height: 460px;
+				position: relative;
+				top: 157px;
+				left: 140px;
+				background-color: $orange;
+				color: white;
+				font-family: $playfair-font;
+
+				a {	
+					position: relative;
+					top: 71px;
+					left: 223px;
+					text-decoration: none;
+					text-transform: uppercase;
+					color: white;
+					text-align: center;
+				}
+
+				h2 {
+					position: relative;
+					top: 92px;
+					font-size: 37px;
+					text-align: center;
+				}
+
+				p {
+					width: 375px;
+					position: relative;
+					top: 132px;
+					left: 104px;
+					text-align: center;
+				}
+
+				.gallery {
+					position: relative;
+					background-image: url("../images/assets/icon-gallery.svg");
+					background-repeat: no-repeat;
+					display: block;	
+					background-size: contain;
+					width: 110px;
+					top: 163px;
+					left: 228px;
+
+					p {
+						position: relative;
+						left: 33px;
+						top: 0;
+						text-transform: none;
+						text-align: left;
+					}				
+				}
+			}
+
+				button {
+				position: relative;
+				width: 103px;
+				height: 40px;
+				position: relative;
+				float: right;
+				top: 222px;
+				left: -241px;
+				text-align: left;
+				color: white;
+				// border-bottom: 1px solid white;
+				// width: 	401px;
+				font-weight: 200;
+			}
+		}
+
+	.right-post {
+		margin-left: 63px;
+
+			.post-img2,
+			.post-img3 {
+				width: 401px;
+				height: 363px;
+				display:block;
+			}
+
+			.post-img2 {
+				background-repeat: no-repeat;
+				margin-bottom: 45px;
+				background-image: url("../images/homepage/home-latest-in-men-2.jpg");
+			} 
+
+			.post-img3 {
+				position: relative;
+				background-position: top center;
+				background-repeat: no-repeat;
+				background-image: url("../images/homepage/home-latest-in-men-1.jpg");
+			} 
+		}
+	}
+}

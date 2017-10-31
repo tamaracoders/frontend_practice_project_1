@@ -3,6 +3,7 @@
 	position: relative;
 	color: white;
 	display: flex;
+	margin-bottom: 	103px;
 
 	.food-img {
 		flex: 46;
@@ -22,13 +23,14 @@
 			background-repeat: no-repeat;
 			display: block;	
 			background-size: contain;
-			top: 32px;
-			left: 96px;
+			top: 257px;
+			left: 293px;
 			width: 110px;
 
 			p {
 				position: relative;
-				left: -104px;
+				left: 33px;
+				top: 0;
 				text-transform: none;
 			}		
 		}
@@ -38,20 +40,23 @@
 			text-decoration: none;
 			color: white;
 			text-transform: uppercase;
-			left: 140px;
+			top: 197px;
+			left: 280px;
 		}
 
 		h2 {
 			position: relative;
 			font-weight: 400;
 			left: 140px;
-			margin-top: 19px;
+			top: 213px;
 			margin-bottom: 21px;
 			font-size: 40px;
 		}
 
 		p {
+			width: 410px;
 			position: relative;
+			top: 220px;
 			left: 140px;
 			font-size: 15px;
 		}
@@ -62,10 +67,13 @@
 			height: 40px;
 			position: relative;
 			float: right;
-			margin-top: 43px;
-			margin-bottom: 30px;
-			margin-right: 33px;
+			top: 322px;
+			left: -376px;
 			text-align: left;
+			color: white;
+			// border-bottom: 1px solid white;
+			// width: 	401px;
+			font-weight: 200;
 		}
 	}
 }
