@@ -1,0 +1,24 @@
+.home-delivery {
+	width: 1440px;
+	height: 378px;
+
+	button {
+		position: relative;
+		width: 142px;
+		height: 40px;
+		position: relative;
+		left: 642px;
+		text-align: left;
+		color: black;
+		font-weight: 200;
+	}
+
+	.background-shopping {
+		background-image: url("../images/homepage/ssss.png");
+		background-repeat: no-repeat;
+		height: 634px;
+		position: relative;
+		bottom: 297px;
+		z-index: -1;
+	}
+}

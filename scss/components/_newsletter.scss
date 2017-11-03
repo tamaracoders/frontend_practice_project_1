@@ -1,0 +1,44 @@
+.newsletter {
+	width: 1440px;
+	height: 400px;
+	margin-top: 0;
+	background-color: $yellow;
+
+
+	.title {
+		padding-top: 85px;
+
+		h2 {
+			color: black;
+			padding-bottom: 7px;
+		}
+	}
+
+	.input {
+		position: relative;
+		left: 337px;
+		padding-top: 25px;
+
+		.email {
+			font-family: $playfair-font;
+			font-size: 23px;
+			width: 617px;
+			height: 76px;
+			border: none;
+			text-indent: 30px;
+			color: rgba( black, 0.1);
+		}
+
+		.sign-up {
+			font-family: $playfair-font;
+			width: 158px;
+			height: 76px;
+			position: relative;
+			left: -5px;
+			font-size: 23px;
+			border: none;
+			color: white;
+			background-color: rgba( black, 0.7);
+		}
+	}
+}
