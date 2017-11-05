@@ -68,12 +68,22 @@
 			position: relative;
 			float: right;
 			top: 322px;
-			left: -376px;
+			left: -250px;
 			text-align: left;
 			color: white;
-			// border-bottom: 1px solid white;
-			// width: 	401px;
+			background-image: url("../images/assets/icon-carret-white.svg");
 			font-weight: 200;
+
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 405px;
+				left: -246px;
+				padding-top: 26px;
+				z-index: 2;
+				border-bottom: 1px solid white;
+			}
 		}
 	}
 }

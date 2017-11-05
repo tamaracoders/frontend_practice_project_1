@@ -8,9 +8,8 @@ footer {
 		display: flex;
 		position: relative;
 		top: 130px;
-		width: 1325px;
+		width: 1024px;
 		margin: 0 auto;
-		left: 150px;
 
 		.col-1,
 		.col-2,
@@ -22,7 +21,7 @@ footer {
 				padding-bottom: 25px;
 			}
 
-			ul {
+			ul {left:100px;
 
 				li {
 					list-style-type: none;

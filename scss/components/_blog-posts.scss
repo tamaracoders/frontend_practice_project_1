@@ -111,30 +111,89 @@
 
 }
 
-// .background {
-// 	width: 100%;
-// 	height: 196px;
-// 	position: absolute;
-// 	background: -webkit-linear-gradient(264deg, transparent 50%, $yellow 50%);
-// 	background-position: bottom left;
-// }
+.background {
+	z-index: 1;
 
-// .background-men {
-// 		width: 100%;
-// 		height: 400px;
-// 		background: -webkit-linear-gradient(275deg, transparent 50%, $rose-pink 50%);
-// 		background-position: top left;
-// 		position: absolute;
-// 		top: 842px;
-// 	}
+	&::before,
+	&::after {
+	position: absolute;
+	  content: '';
+
+	  left: -25%;
+	  z-index: -1;
+	  width: 150%;
+	  
+	  background: inherit;
+	  -webkit-transform: rotate(20deg);
+	  transform: rotate(20deg);
+	  -webkit-transform-origin: 20% 0;
+	  transform-origin: 20% 0;
+	}
+
+	&::before {
+	  height: 213px;
+	  top:1150px;
+	  background: $yellow;
+	  -webkit-transform: rotate(3deg);
+	  transform: rotate(3deg);
+	  -webkit-transform-origin: 30% 0;
+	  transform-origin: 30% 0;
+	}
+	&::after {
+	  height: 300px;
+	  top:1296px;
+	  background: #fff;
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	  -webkit-transform-origin: 0 0;
+	  transform-origin: 0 0;
+	}
+}
 
 .men {
 	width: 1325px;
 	margin: 0 auto;
 	padding-top: 13px;
+	z-index: 1;
+
+	&::before,
+	&::after {
+	position: absolute;
+	  content: '';
+
+	  left: -25%;
+	  z-index: -1;
+	  width: 150%;
+	  
+	  background: inherit;
+	  -webkit-transform: rotate(20deg);
+	  transform: rotate(20deg);
+	  -webkit-transform-origin: 20% 0;
+	  transform-origin: 20% 0;
+	}
+
+	&::before {
+	  height: 413px;
+	  top:3333px;
+	  background: $rose-pink;
+	  -webkit-transform: rotate(-3deg);
+	  transform: rotate(-3deg);
+	  -webkit-transform-origin: 30% 0;
+	  transform-origin: 30% 0;
+	}
+	&::after {
+	  height: 300px;
+	  top:3506px;
+	  background: #fff;
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	  -webkit-transform-origin: 0 0;
+	  transform-origin: 0 0;
+	}
 
 	.latest-men {
 		display: flex;
+		padding-bottom: 66px;
 
 		.post-img1 {
 			z-index: 1;
@@ -145,7 +204,6 @@
 			background-image: url("../images/homepage/home-best-dressed.jpg");
 
 			.orange-post {
-				// visibility: hidden;
 				width: 583px;
 				height: 460px;
 				position: relative;
@@ -210,9 +268,19 @@
 				left: -241px;
 				text-align: left;
 				color: white;
-				// border-bottom: 1px solid white;
-				// width: 	401px;
+				background-image: url("../images/assets/icon-carret-white.svg");
 				font-weight: 200;
+
+				&:after {
+					content: '';
+					position: absolute;
+					display: block;
+					width: 405px;
+					left: -239px;
+					padding-top: 26px;
+					z-index: 2;
+					border-bottom: 1px solid white;
+				}
 			}
 		}
 

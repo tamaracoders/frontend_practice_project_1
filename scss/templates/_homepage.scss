@@ -22,6 +22,17 @@
 			position: relative;
 			top: 214px;
 			left: 20px;
+
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 254px;
+				left: -24px;
+				padding-top: 26px;
+				z-index: 2;
+				border-bottom: 1px solid $light-pink;
+			}
 		}
 
 		h2 {
